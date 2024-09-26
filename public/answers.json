@@ -1,0 +1,44 @@
+[
+  {
+    "question": "Đường tới hội trường A7?",
+    "answer": "Đi tới phòng truyền thông, sau đó nhìn bên trái.",
+    "image": "../img/hoitruongA7.jpg",
+    "tags": ["A7", "hội trường", "đường tới A7"],
+    "keywords": ["A7", "hội trường", "phòng", "đường", "vị trí", "tới", "đi", "đường tới hội trường a7", "chỗ nào"],
+    "synonyms": ["phòng họp", "giảng đường", "lối đi", "chỗ", "địa điểm", "hướng dẫn", "cách đến"],
+    "fontStyle": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "normal",
+      "color": "#333333"
+    },
+    "displayStyle": {
+      "backgroundColor": "#f0f0f0",
+      "padding": "10px",
+      "borderRadius": "5px",
+      "marginBottom": "15px"
+    }
+  },
+  {
+    "question": "Đường tới hội trường E4",
+    "answer": "Đi thẳng qua sảnh chính, rẽ phải ở hành lang thứ hai.",
+    "image": "../img/hoitruongE4.jpg",
+    "tags": ["E4", "hội trường", "đường tới E4"],
+    "keywords": ["E4", "hội trường", "phòng", "đường", "vị trí", "tới", "đi", "sảnh", "hành lang"],
+    "synonyms": ["phòng họp", "giảng đường", "lối đi", "chỗ", "địa điểm", "hướng dẫn", "cách đến"],
+    "fontStyle": {
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "bold",
+      "color": "#2c3e50"
+    },
+    "displayStyle": {
+      "backgroundColor": "#ecf0f1",
+      "padding": "15px",
+      "borderRadius": "8px",
+      "marginBottom": "20px",
+      "boxShadow": "0 2px 4px rgba(0,0,0,0.1)"
+    }
+  }
+]
+

@@ -1,0 +1,161 @@
+header {
+  background: linear-gradient(135deg, #7fdbda, #8ee4af);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.Head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  background: inherit;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.Head .logo {
+  flex-shrink: 0;
+}
+
+.Head .logo-img {
+  height: 40px; /* Adjust as needed */
+}
+
+.Head ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Head ul li {
+  margin: 0 8px;
+}
+
+.Head ul li a {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: 1.5px solid #ffffff;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #05386b; /* Darker blue for contrast */
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+}
+
+
+
+.logo-img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.contact-section {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-section h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+  position: relative;
+}
+
+.contact-section h1::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #007bff;
+  margin: 15px auto 0;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #666;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateX(10px);
+}
+
+.contact-item i {
+  font-size: 24px;
+  color: #007bff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7f1ff;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: 1.5px solid #ff6b6b;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #ff6b6b;
+  color: white;
+  transform: scale(1.05);
+  font-weight: 700;
+}
+
+
+
